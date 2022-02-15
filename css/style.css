@@ -118,6 +118,7 @@ a:focus{
 }
 .about, .clients, .method, .contact {
   grid-column: 2/3;
+  z-index: 5;
 }
 img {
   width: 100%;
