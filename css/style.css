@@ -117,13 +117,13 @@ a:focus{
   background-size: cover;
 }
 .about, .clients, .method, .contact {
-  grid-column: 2 / span 1;
+  grid-column: 2/3;
 }
 img {
   width: 100%;
 }
 .about-image, .clients-image, .method-image, .contact-image {
-  grid-column: 1 / 4;
+  grid-column: 1/4;
   max-height: 500px;
   overflow: hidden;
 }
@@ -147,9 +147,6 @@ img {
   max-height: 25vh;
   overflow: scroll;
 }
-
-
-
 
 @media screen and (min-width: 700px){
   nav{
